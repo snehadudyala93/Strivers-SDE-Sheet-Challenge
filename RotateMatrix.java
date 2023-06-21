@@ -1,5 +1,6 @@
 public class Solution {
     public static void rotateMatrix(ArrayList<ArrayList<Integer>> mat, int n, int m) {
+        //declare corners
         int top = 0;
         int left = 0;
         int right = m - 1;
